@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-Og",
+      "-ggdb",
+      "-c",
+      "-o",
+      "build/debug/cache/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/net_error/Documents/status_bar/new",
+    "file": "/home/net_error/Documents/status_bar/new/src/main.c",
+    "output": "/home/net_error/Documents/status_bar/new/build/debug/cache/main.o"
+  }
+]

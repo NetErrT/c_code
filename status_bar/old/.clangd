@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://json.schemastore.org/clangd.json
+---
+CompileFlags:
+  CompilationDatabase: .
+  Compiler: clang
+Diagnostics:
+  UnusedIncludes: Strict
+  # MissingIncludes: Strict # 17
+Hover:
+  ShowAKA: true
+
